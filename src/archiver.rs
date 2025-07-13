@@ -1,6 +1,6 @@
 use crate::backup_logic::BackupMonth;
 use std::fs::{self, File};
-use std::io::{self, Read, Seek, Write};
+use std::io::{self, Read, Write};
 use std::path::{Path, PathBuf};
 use uuid::Uuid;
 use zip::write::{FileOptions, ZipWriter};
